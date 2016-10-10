@@ -1,0 +1,70 @@
+dn: dc=openadmin,dc=pl
+objectClass: top
+objectClass: dcObject
+objectclass: organization
+o: OpenLDAP Server
+dc: openadmin
+
+dn: cn=admin,dc=openadmin,dc=pl
+objectClass: organizationalRole
+cn: admin
+description: LDAP Administrator
+
+dn: ou=Users,dc=openadmin,dc=pl
+objectClass: organizationalUnit
+ou: People
+
+# Wpis 1: cn=Użytkownik Czwarty,ou=Users,dc=openadmin,dc=pl
+dn:: Y249VcW8eXRrb3duaWsgQ3p3YXJ0eSxvdT1Vc2VycyxkYz1vcGVuYWRtaW4sZGM9cGw=
+cn:: VcW8eXRrb3duaWsgQ3p3YXJ0eQ==
+givenname:: VcW8eXRrb3duaWs=
+mail: user04@openadmin.pl
+objectclass: inetOrgPerson
+objectclass: top
+sn: Trzeci
+uid: user04
+userpassword: user04
+
+# Wpis 2: cn=Użytkownik Drugi,ou=Users,dc=openadmin,dc=pl
+dn:: Y249VcW8eXRrb3duaWsgRHJ1Z2ksb3U9VXNlcnMsZGM9b3BlbmFkbWluLGRjPXBs
+cn:: VcW8eXRrb3duaWsgRHJ1Z2k=
+givenname:: VcW8eXRrb3duaWs=
+mail: user02@openadmin.pl
+objectclass: inetOrgPerson
+objectclass: top
+sn: Drugi
+uid: user02
+userpassword: user02
+
+# Wpis 3: cn=Użytkownik Pierwszy,ou=Users,dc=openadmin,dc=pl
+dn:: Y249VcW8eXRrb3duaWsgUGllcndzenksb3U9VXNlcnMsZGM9b3BlbmFkbWluLGRjPXBs
+cn:: VcW8eXRrb3duaWsgUGllcndzenk=
+givenname:: VcW8eXRrb3duaWs=
+mail: user01.openadmin.pl
+objectclass: inetOrgPerson
+objectclass: top
+sn: Pierwszy
+uid: user01
+userpassword: user01
+
+# Wpis 4: cn=Użytkownik Piąty,ou=Users,dc=openadmin,dc=pl
+dn:: Y249VcW8eXRrb3duaWsgUGnEhXR5LG91PVVzZXJzLGRjPW9wZW5hZG1pbixkYz1wbA==
+cn:: VcW8eXRrb3duaWsgUGnEhXR5
+givenname:: VcW8eXRrb3duaWs=
+mail: user05@openadmin.pl
+objectclass: inetOrgPerson
+objectclass: top
+sn:: UGnEhXR5
+uid: user05
+userpassword: user05
+
+# Wpis 5: cn=Użytkownik Trzeci,ou=Users,dc=openadmin,dc=pl
+dn:: Y249VcW8eXRrb3duaWsgVHJ6ZWNpLG91PVVzZXJzLGRjPW9wZW5hZG1pbixkYz1wbA==
+cn:: VcW8eXRrb3duaWsgVHJ6ZWNp
+givenname:: VcW8eXRrb3duaWs=
+mail: user03@openadmin.pl
+objectclass: inetOrgPerson
+objectclass: top
+sn: Trzeci
+uid: user03
+userpassword: user03
